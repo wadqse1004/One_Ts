@@ -61,4 +61,4 @@ let post: Post = {
     author: "가",
 }
 
-const len: number = post.author!.length; // ? -> 옵셔널 체이닝
+const len: number = post.author!.length; // ? -> 옵셔널 체이닝, ! -> Non Null 단언
