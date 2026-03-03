@@ -32,6 +32,7 @@ function introduce(name = "이름", tall?: number){
 
 introduce("타입스크립트");
 
+//function getSum(...rest: [number, number, number]){ -- 인수 갯수 설정할 수 있음
 function getSum(...rest: number[]){
     let sum = 0;
     rest.forEach((it) => (sum += it));
